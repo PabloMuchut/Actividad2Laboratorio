@@ -1,0 +1,47 @@
+:root{
+    --negro:#212121;
+    --blanco:#ffffff;
+    --violeta: #78288C;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Krub", sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--violeta);
+}
+
+
+.navegacion{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion a{
+    color: var(--negro);
+    text-decoration: none;
+}
+
+.contenedor{
+    background-image: url(../img/curso-c-sharp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--blanco);
+    height: 60rem;
+   width: 90rem;
+}
+
+
+footer{
+    text-align: center;
+    background-color: var(--violeta);
+}
